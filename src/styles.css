@@ -1,0 +1,35 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* You can add global styles to this file, and also import other style files */
+
+html, body { 
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #fafafa;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.snack-flesh {
+    background-color: rgb(245, 179, 141);
+    color: rgb(48, 39, 39);
+
+    .mat-button {
+        color: white;
+    }
+
+}
+
+.custom-tooltip {
+    background-color: rgb(63, 89, 138);
+}
+
